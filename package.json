@@ -1,0 +1,7 @@
+{
+  "name": "code-challenges",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
