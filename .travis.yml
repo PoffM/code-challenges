@@ -10,6 +10,7 @@ before_install:
 script: echo "no tests here"
 deploy:
   provider: script
+  skip_cleanup: true
   script: bash deploy.sh
   on:
     branch: master
